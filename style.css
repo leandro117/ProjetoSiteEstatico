@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, #72F2EB, #00CCBF);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header.cabecalho{
+    background-image: linear-gradient(to bottom, #03A64A, #025940, #04BF8A);
+    margin: -8px;
+    padding: 10px;
+    color: rgb(252, 252, 252);
+}
+header.cabecalho > h1, p{
+    text-align: center;
+}
+header.cabecalho > p{
+    font-size: 18px;
+}
+header.cabecalho > h1{  
+    font-weight: bold;
+}
+nav#menu-navegacao > a{
+    color: rgba(255, 255, 255, 0.884);
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 20px;
+}
+nav#menu-navegacao > a:hover{
+    background-color: #034001;
+    padding: 3px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+.article_img{
+    width: 100%;
+}
+#article_img{
+    width: 40%;
+}
+main{
+    width: 80%;
+    margin: 8px auto -10px auto;
+    padding: 10px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 11px 0px #000000cc;
+}
+@font-face {
+    font-family: 'idroid';
+    src: url('pacote-projeto-d010/fontes/idroid.otf');
+}
+article > h1, h2 {
+    font-family: 'idroid';
+    color: #034001;
+    padding: 5px;
+    
+}
+article > h2 {
+    background-image: linear-gradient(to right, rgb(0, 175, 0), rgba(0, 0, 255, 0));
+}
+article > p{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+.article_link{
+    background-color: #03A64A;
+    color: #034001;
+    text-decoration: none;
+    padding: 2px;
+}
+.article_link:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.article_link::after{
+    content: '🔗';
+}
+
+aside{
+    background-color: rgb(133, 192, 133);
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 0px;
+}
+aside > p{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+h3{
+    background-color: #034001;
+    color: white;
+    padding: 5px;
+    margin: 10px -5px;
+    border-radius: 10px 10px 0px 0px;
+}
+ul > li {
+    list-style: none;
+    text-align: left;
+    font-size: 16px;
+}
+ul{
+    column-count: 2;
+    padding: 10px;
+}
+ul > li::before {
+    content: '✓ ';
+}
+p#final{
+    background-color: white;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+footer {
+    background-color: #025951;
+    padding: 0px;
+    margin: 40px -8px -8px -8px;
+}
